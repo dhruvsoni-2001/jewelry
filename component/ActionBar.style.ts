@@ -43,5 +43,13 @@ export const getStyles = (currentTheme: 'light' | 'dark') => {
     buttonTextSecondary: {
       color: themeColors.foreground,
     },
+    buttonActive: {
+      backgroundColor: themeColors.primary,
+      borderWidth: 0,
+    },
+    buttonTextActive: {
+      color: theme.light.cardBackground,
+      fontWeight: '700',
+    },
   });
 };
